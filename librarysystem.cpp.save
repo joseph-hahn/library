@@ -1,0 +1,16 @@
+#include <fstream.h>
+#include <string.h>
+#include <iomanip.h>
+
+
+class book
+{
+char bookname [];
+char booknumber[];
+char bookauth [];
+char patronid [];
+
+public:
+	void create_book()
+	{
+		cout<<"Enter g
