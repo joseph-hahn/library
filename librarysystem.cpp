@@ -31,6 +31,11 @@ void display_book()
 
 };
 
+char* rtnbookinfo()
+{
+return bno;
+}
+
 class patron
 {
 
@@ -41,11 +46,36 @@ char patronlname [];
 public:
 {
 
-cout<<"Enter Patron information"endl;
-cout<<"Patron First name: "endl;
+cout<<"Enter Patron information"<<endl;
+cout<<"Patron First name: "<<endl;
 cin>>patronfname;
-cout<<"Enter Patron Last name: "endl;
+cout<<"Enter Patron Last name: "<<endl;
 cin>>patronlname;
 }
+
+
+void  show_patron()
+{ count<<"Patron  name:"<<endl;
+cout<<"Patron Id:"<<endl;
+
+//main
+
+cout<<"Library Menu"<<endl;
+count<<"check out book               1"<<endl;
+cout<<"check in book                  2"<<endl;
+cout<<"add student                    3"<<endl;
+
+
+
+
+add student
+
+check in book 
+
+check out book
+
+return 0;
+}
+
 
 
